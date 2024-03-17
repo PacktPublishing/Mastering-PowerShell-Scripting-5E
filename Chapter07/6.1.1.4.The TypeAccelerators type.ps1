@@ -1,0 +1,13 @@
+$typeAccelerators | Get-Member -Static
+
+# Expects output:
+# 
+#    TypeName: System.Management.Automation.TypeAccelerators
+# 
+# Name            MemberType Definition
+# ----            ---------- ----------
+# Add             Method     static void Add(string typeName, ty...
+# Equals          Method     static bool Equals(System.Object ob...
+# ReferenceEquals Method     static bool ReferenceEquals(System....
+# Remove          Method     static bool Remove(string typeName)
+# Get             Property   System.Collections.Generic.Dictiona...

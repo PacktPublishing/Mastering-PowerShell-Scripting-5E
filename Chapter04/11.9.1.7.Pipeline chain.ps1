@@ -1,0 +1,1 @@
+installApplication.exe && application.exe

@@ -1,0 +1,5 @@
+$ConfirmPreference
+
+# Expects output:
+# 
+# High

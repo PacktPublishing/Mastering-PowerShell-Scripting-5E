@@ -1,0 +1,1 @@
+$list.RemoveAt(0)

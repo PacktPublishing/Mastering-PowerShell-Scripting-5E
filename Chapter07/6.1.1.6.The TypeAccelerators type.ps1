@@ -1,0 +1,4 @@
+$typeAccelerators::Add(
+    'TypeAccelerators',
+    $typeAccelerators
+)

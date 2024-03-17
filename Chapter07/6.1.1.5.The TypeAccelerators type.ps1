@@ -1,0 +1,1 @@
+$typeAccelerators::Get

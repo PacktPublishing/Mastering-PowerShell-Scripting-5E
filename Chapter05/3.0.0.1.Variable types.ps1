@@ -1,0 +1,1 @@
+$variable = "Hello world" 

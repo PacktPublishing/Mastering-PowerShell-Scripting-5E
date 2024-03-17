@@ -1,0 +1,1 @@
+$hashtable.Remove('Key3') 

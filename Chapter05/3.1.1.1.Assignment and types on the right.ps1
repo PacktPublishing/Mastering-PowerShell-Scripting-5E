@@ -1,0 +1,1 @@
+$variable = [string]1

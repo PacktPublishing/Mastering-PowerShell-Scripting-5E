@@ -1,0 +1,1 @@
+[WildcardPattern]::Escape('* [a-z] ?')
