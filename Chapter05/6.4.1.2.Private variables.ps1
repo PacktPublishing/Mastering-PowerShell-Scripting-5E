@@ -7,6 +7,5 @@ function second {
     third
 }
 function third {
-    "The value of name is $name"
+    "In the function third the value of name is $name"
 }
-first

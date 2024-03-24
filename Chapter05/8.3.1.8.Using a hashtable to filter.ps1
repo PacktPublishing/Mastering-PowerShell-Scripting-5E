@@ -5,6 +5,6 @@ $right | ForEach-Object {
 $left |
     Where-Object { $rightLookup.Contains($_.UserID) } |
     ForEach-Object {
-        $left.City = $rightLookup[$_.UserID].City
-        $left
+        $_.City = $rightLookup[$_.UserID].City
+        $_
     }

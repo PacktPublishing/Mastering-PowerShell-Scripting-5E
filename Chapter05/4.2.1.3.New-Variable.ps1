@@ -1,6 +1,5 @@
-New-Variable -Name startTime -Value (Get-Date) -Option Constant 
+$today
 
 # Expects output:
 # 
-# New-Variable -Name var -Value 1 -Option Constant 
-# $var = 2
+# 24 March 2024 12:37:46

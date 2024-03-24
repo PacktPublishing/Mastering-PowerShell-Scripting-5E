@@ -1,1 +1,7 @@
-$myArray.Where{ $_ -gt 3 -and $_ -lt 7 }
+$myArray -gt 3 -lt 7
+
+# Expects output:
+# 
+# 4
+# 5
+# 6

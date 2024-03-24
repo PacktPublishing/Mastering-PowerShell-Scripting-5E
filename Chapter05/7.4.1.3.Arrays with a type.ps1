@@ -1,4 +1,4 @@
-[Int32[]]$myNumbers = 1, 2, $null, "A string"
+[int[]]$myNumbers = 1, 2, $null, "A string"
 
 # Expects output:
 # 

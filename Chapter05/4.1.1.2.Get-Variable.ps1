@@ -2,6 +2,5 @@ Get-Variable | Select-Object Name, Description
 
 # Expects output:
 # 
-# TransformNullOptionalParameters TypeId
-# ------------------------------- ------
-#                            True ArgumentTypeConverterAttribute
+# [string]$variable = 'Hello world'
+# Get-Variable variable | ForEach-Object Attributes

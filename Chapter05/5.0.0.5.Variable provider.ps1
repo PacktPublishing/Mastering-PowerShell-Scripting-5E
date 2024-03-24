@@ -1,3 +1,5 @@
-$new = 123
-Get-Item variable:\new
-Get-Item variable:new
+Get-Content variable:PSHome
+
+# Expects output:
+# 
+# C:\Program Files\PowerShell\7

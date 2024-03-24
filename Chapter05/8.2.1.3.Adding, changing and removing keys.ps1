@@ -1,5 +1,6 @@
 $hashtable = @{} 
-$hashtable.Add("Key1", "Value1") 
+$hashtable.Add(“Key1”, “Value1”) 
+$hashtable
 
 # Expects output:
 # 

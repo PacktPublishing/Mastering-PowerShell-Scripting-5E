@@ -1,1 +1,6 @@
-$myArray | Where-Object { $_ -gt 3 -and $_ -lt 7 }
+$myArray -lt 3
+
+# Expects output:
+# 
+# 1
+# 2

@@ -1,1 +1,1 @@
-$firstName, $null, $lastName = -split “First A. Last”
+$i, $j, $k = 1, 2 

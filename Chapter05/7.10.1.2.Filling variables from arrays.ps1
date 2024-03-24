@@ -1,2 +1,5 @@
-$firstName, $lastName = -split "First Last"
-$firstName, $lastName = "First Last".Split() 
+$i
+
+# Expects output:
+# 
+# 1

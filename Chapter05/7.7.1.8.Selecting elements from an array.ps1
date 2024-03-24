@@ -1,2 +1,5 @@
-$myArray -gt 5
-$myArray -lt 3
+$myArray.IndexOf(11)
+
+# Expects output:
+# 
+# -1

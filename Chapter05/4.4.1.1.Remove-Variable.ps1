@@ -1,2 +1,2 @@
-$psProcesses = Get-Process powershell 
+$psProcesses = Get-Process pwsh 
 Remove-Variable psProcesses 
