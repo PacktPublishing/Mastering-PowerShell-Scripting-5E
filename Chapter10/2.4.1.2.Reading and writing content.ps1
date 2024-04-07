@@ -1,0 +1,1 @@
+﻿Get-Content function:prompt

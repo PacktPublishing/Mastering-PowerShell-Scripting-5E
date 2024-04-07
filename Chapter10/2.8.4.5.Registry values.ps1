@@ -1,0 +1,1 @@
+﻿[Environment]::Is64BitProcess
