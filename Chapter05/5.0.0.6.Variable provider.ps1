@@ -1,4 +1,4 @@
-Get-Content variable:\PSHome
+Get-Content variable:global:PSHome
 
 # Expects output:
 # 

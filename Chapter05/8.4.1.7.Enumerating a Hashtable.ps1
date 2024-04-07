@@ -1,4 +1,4 @@
-$users.get_Keys()
+$user.get_Keys()
 
 # Expects output:
 # 
