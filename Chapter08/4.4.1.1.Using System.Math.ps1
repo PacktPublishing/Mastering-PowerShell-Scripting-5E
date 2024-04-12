@@ -1,0 +1,1 @@
+﻿[Math] | Get-Member -Static

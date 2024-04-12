@@ -1,0 +1,1 @@
+﻿pwsh -encodedcommand VwByAGkAdABlAC0ASABvAHMAdAAgACcASABlAGwAbABvACAAdwBvAHIAbABkACcA
