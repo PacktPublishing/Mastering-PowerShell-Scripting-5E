@@ -1,0 +1,1 @@
+﻿$aclObject.DACL += $ace 
