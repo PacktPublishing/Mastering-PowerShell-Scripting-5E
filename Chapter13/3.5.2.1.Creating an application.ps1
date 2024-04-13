@@ -1,0 +1,2 @@
+﻿$clientId = 'FromGitHub' 
+$clientSecret = 'FromGitHub' 
