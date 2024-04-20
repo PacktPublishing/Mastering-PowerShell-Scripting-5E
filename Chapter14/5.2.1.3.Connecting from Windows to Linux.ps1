@@ -1,0 +1,1 @@
+﻿service sshd restart

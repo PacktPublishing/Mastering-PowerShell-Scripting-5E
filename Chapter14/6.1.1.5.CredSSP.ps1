@@ -1,0 +1,1 @@
+﻿Disable-WSManCredSSP -Role Server 
