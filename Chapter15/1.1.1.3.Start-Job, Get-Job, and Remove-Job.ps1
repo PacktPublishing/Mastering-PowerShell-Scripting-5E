@@ -1,0 +1,1 @@
+﻿Get-Job | Remove-Job
