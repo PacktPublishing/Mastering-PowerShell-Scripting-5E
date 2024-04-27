@@ -1,0 +1,5 @@
+﻿[CmdletBinding()]
+param (
+    [Parameter()]
+    $Parameter
+)
