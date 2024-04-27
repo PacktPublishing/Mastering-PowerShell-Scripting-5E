@@ -1,0 +1,1 @@
+﻿Microsoft.Management.Infrastructure.CimInstance#MSFT_NetAdapter
