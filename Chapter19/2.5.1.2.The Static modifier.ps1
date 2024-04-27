@@ -1,0 +1,2 @@
+﻿[MyClass]::Property
+[MyClass]::Method()
