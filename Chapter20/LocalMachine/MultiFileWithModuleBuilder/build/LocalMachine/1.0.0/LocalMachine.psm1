@@ -8,10 +8,12 @@ enum Ensure {
 [DscResource()]
 class ComputerDescription {
     [DscProperty(Key)]
-    [Ensure] $Ensure
+    [Ensure]
+    $Ensure
 
     [DscProperty()]
-    [string] $Description
+    [string]
+    $Description
 
     [ComputerDescription] Get() {
         try {
@@ -136,7 +138,8 @@ function Set-ComputerDescription {
     param (
         # The description which should be set for the current computer.
         [Parameter(Mandatory, Position = 1, ValueFromPipeline)]
-        [string]$Description
+        [string]
+        $Description
     )
 
     process {

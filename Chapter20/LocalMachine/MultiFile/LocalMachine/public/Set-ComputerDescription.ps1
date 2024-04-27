@@ -21,7 +21,7 @@ function Set-ComputerDescription {
     )
 
     process {
-        if ($pscmdlet.ShouldProcess('Removing computer description')) {
+        if ($PSCmdlet.ShouldProcess('Removing computer description')) {
             $setParams = GetRegistryParameter
             $params = @{
                 Type  = 'String'

@@ -33,11 +33,12 @@ function Set-ComputerDescription {
     [OutputType([string])]
     param (
         [Parameter(Mandatory, Position = 1, ValueFromPipeline)]
-        [string]$Description
+        [string]
+        $Description
     )
 
     process {
-        if ($pscmdlet.ShouldProcess(
+        if ($PSCmdlet.ShouldProcess(
             'Removing computer description')) {
 
             $setParams = GetRegistryParameter

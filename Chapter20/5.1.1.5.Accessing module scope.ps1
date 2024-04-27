@@ -1,0 +1,1 @@
+﻿& (Get-Module SomeService) { GetServiceConnection }

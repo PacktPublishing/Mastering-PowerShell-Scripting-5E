@@ -1,10 +1,12 @@
 [DscResource()]
 class ComputerDescription {
     [DscProperty(Key)]
-    [Ensure] $Ensure
+    [Ensure]
+    $Ensure
 
     [DscProperty()]
-    [string] $Description
+    [string]
+    $Description
 
     [ComputerDescription] Get() {
         try {

@@ -1,28 +1,15 @@
-function Set-ComputerDescription {
-    <#
-    .SYNOPSIS
-        Set a description for the computer.
-
-    .DESCRIPTION
-        Set a description for the computer in the registry.
-
-    .EXAMPLE
-        Set-ComputerDescription -Description 'My computer'
-
-        Set the description of the current computer to "My computer".
-    #>
-
+﻿function Set-ComputerDescription {
     [CmdletBinding(SupportsShouldProcess)]
     [OutputType([string])]
     param (
-        # The description which should be set for the current computer.
         [Parameter(Mandatory, Position = 1, ValueFromPipeline)]
         [string]
         $Description
     )
 
     process {
-        if ($PSCmdlet.ShouldProcess('Removing computer description')) {
+        if ($PSCmdlet.ShouldProcess(
+            'Removing computer description')) {
             $setParams = GetRegistryParameter
             $params = @{
                 Type  = 'String'

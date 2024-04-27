@@ -1,0 +1,1 @@
+﻿Unregister-PSResourceRepository -Name PSLocal
