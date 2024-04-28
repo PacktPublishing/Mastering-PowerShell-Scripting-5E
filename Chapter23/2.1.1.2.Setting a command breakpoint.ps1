@@ -1,0 +1,5 @@
+﻿$name
+
+# Expects output:
+#
+# powershell

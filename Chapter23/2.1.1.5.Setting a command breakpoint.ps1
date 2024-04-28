@@ -1,0 +1,1 @@
+﻿Get-PSBreakpoint | Remove-PSBreakpoint
