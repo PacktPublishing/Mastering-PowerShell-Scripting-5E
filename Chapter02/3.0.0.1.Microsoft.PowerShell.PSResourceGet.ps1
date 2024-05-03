@@ -1,1 +1,1 @@
-Install-Module Microsoft.PowerShell.PSResourceGet
+﻿Install-Module Microsoft.PowerShell.PSResourceGet

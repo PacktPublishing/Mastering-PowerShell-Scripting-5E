@@ -1,1 +1,1 @@
-Install-Module carbon -Scope AllUsers
+﻿Install-Module carbon -Scope AllUsers

@@ -1,1 +1,2 @@
-Get-Command -Module ThreadJob 
+﻿Import-Module -Name ThreadJob
+Import-Module -Name $PSHome\Modules\ThreadJob\ThreadJob.psd1

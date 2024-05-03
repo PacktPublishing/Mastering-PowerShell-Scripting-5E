@@ -1,1 +1,1 @@
-Get-Module -ListAvailable
+﻿Get-Module -ListAvailable

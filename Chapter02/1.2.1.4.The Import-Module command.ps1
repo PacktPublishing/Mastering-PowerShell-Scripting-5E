@@ -1,1 +1,1 @@
-Import-Module PSScriptAnalyzer -MaxmimumVersion 1.7.0
+﻿Get-Command -Module ThreadJob 

@@ -1,1 +1,1 @@
-$env:LOCALAPPDATA\PowerShellGet\PSResourceRepository.xml
+﻿$env:LOCALAPPDATA\PowerShellGet\PSResourceRepository.xml

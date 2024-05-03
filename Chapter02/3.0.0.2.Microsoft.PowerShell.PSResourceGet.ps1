@@ -1,1 +1,1 @@
-Register-PSResourceRepository -PSGallery
+﻿Register-PSResourceRepository -PSGallery

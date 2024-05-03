@@ -1,1 +1,1 @@
-Find-PSResource -Name PowerShellGet -Version *
+﻿Find-PSResource -Name PowerShellGet -Version *

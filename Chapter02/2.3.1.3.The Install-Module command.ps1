@@ -1,1 +1,1 @@
-Install-Module posh-git -Force 
+﻿Install-Module posh-git -Force 

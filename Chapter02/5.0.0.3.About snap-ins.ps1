@@ -1,1 +1,1 @@
-Get-Command -Module WDeploySnapin3.0
+﻿Get-Command -Module WDeploySnapin3.0

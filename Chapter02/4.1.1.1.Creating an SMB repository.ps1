@@ -1,4 +1,4 @@
-$params = @{
+﻿$params = @{
     Name               = 'Internal'
     SourceLocation     = '\\server\share\directory'
     InstallationPolicy = 'Trusted'
