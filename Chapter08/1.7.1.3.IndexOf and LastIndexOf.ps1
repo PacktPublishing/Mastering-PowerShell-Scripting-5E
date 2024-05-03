@@ -1,9 +1,9 @@
 ﻿$string = 'First,Second,Third'
+$startIndex = $string.IndexOf(',') + 1
+$length = $string.LastIndexOf(',') - $string.IndexOf(',') - 1
 $string.Substring(
-    # startIndex (6)
-    $string.IndexOf(',') + 1, 
-    # length (6)
-    $string.LastIndexOf(',') - $string.IndexOf(',') - 1 
+    $startIndex,
+    $length
 )
 
 # Expects output:
