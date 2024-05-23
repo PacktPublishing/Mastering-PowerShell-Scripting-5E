@@ -4,7 +4,7 @@
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml”
  Width="350" Height="350">
     <Label Content="Hello world" />
-</Window>’
+</Window>'
 $window = [System.Windows.Markup.XamlReader]::Load(
     [System.Xml.XmlNodeReader]$xaml
 )
