@@ -62,7 +62,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter | Software required    | Link to the software    | Hardware specifications    | OS required    |
 |:---:  |:---:  |:---:  |:---:  |:---:  |
-| All chapters  | PowerShell 7+  | [https://www.python.org/downloads/](https://www.python.org/downloads/) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
+| All chapters  | PowerShell 7+  | [https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
 | All chapters  | Visual Studio Code  | [https://code.visualstudio.com/](https://code.visualstudio.com/) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
 
 
