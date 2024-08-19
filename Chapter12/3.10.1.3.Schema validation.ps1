@@ -11,7 +11,7 @@ $document.Schemas.Add(
 $validateResult = [System.Collections.Generic.List[object]]::new()
 $document.Validate({
     param ($sender, $eventArgs)
-    if ($eventArgs.Severity -in ‘Error’, ‘Warning’) {
+    if ($eventArgs.Severity -in 'Error', 'Warning') {
         $validateResult.Add($eventArgs)
     }
-}) 
+})

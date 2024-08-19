@@ -1,5 +1,5 @@
-'abc' -match ‘......'
+'abc' -match '......'
 
 # Expects output:
-# 
+#
 # False

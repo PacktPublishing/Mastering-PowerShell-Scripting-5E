@@ -1,7 +1,7 @@
 $myArray = @(
     Get-Process | Where-Object ProcessName -in @(
         'pwsh'
-        ‘powershell’
+        'powershell'
     )
-    Get-Process notepad 
+    Get-Process notepad
 )

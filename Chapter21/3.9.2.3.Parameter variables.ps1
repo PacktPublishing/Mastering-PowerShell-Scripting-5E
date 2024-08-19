@@ -2,7 +2,7 @@
     if ($PesterBoundParameters.ContainsKey('Name')) {
         [PSCustomObject]@{
             Name   = $Name
-            Status = ‘Stopped’
+            Status = 'Stopped'
         }
     }
 }

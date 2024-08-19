@@ -1,4 +1,4 @@
 ﻿[Microsoft.Win32.RegistryKey]::OpenBaseKey(
     'LocalMachine',
-    ‘Registry64’
+    'Registry64'
 )
