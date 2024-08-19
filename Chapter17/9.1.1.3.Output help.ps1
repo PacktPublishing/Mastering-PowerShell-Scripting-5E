@@ -8,7 +8,7 @@
     param ( )
 
     [string[]]@(
-        'first’
+        'first'
         'second'
     )
 }

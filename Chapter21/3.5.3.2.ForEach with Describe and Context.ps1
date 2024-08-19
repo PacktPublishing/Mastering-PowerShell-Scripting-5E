@@ -1,6 +1,6 @@
 ﻿Describe "DNS servers" -ForEach @(
     @{ ComputerName = 'dns01' }
-    @{ ComputerName = ‘dns02’ }
+    @{ ComputerName = 'dns02' }
 ) {
     It 'The DNS service is running on <ComputerName>' {
         $params = @{

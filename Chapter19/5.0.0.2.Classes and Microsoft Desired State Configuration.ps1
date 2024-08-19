@@ -11,8 +11,8 @@ class ComputerDescription {
     [DscProperty()]
     [string]$Description
 
-    hidden $path = ‘HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters’
-    hidden $valueName = ‘svrcomment’
+    hidden $path = 'HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
+    hidden $valueName = 'svrcomment'
 
     [ComputerDescription] Get() { return $this }
 

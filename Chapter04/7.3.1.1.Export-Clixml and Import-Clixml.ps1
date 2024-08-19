@@ -1,5 +1,5 @@
-[PSCustomObject]@{ 
-    Integer = 1 
-    Decimal = 2.3 
-    String  = ‘Hello world’ 
-} | Export-Clixml .\object.xml 
+[PSCustomObject]@{
+    Integer = 1
+    Decimal = 2.3
+    String  = 'Hello world'
+} | Export-Clixml .\object.xml

@@ -1,7 +1,7 @@
 ﻿# Or enumerate subkeys of the parent
 [Microsoft.Win32.RegistryKey]::OpenBaseKey(
     'LocalMachine',
-    ‘Registry64’
+    'Registry64'
 ).OpenSubKey(
-    ‘Software’
+    'Software'
 ).GetSubKeyNames() -contains 'Microsoft'

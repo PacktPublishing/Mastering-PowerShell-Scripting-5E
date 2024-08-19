@@ -7,7 +7,7 @@
     $process | Select-Object -Property @(
         @{ Name = 'Option'; Expression = { ($counter.index++) }}
         'ProcessName'
-        'ID’
+        'ID'
         'StartTime'
     )
     [int]$picked = Read-Host 'Please select an item'
@@ -17,11 +17,11 @@
 }
 
 # Expects output:
-# 
+#
 # Item picker
 # ===========
-# 
-# 
+#
+#
 # Please select an item: 1
 # Thank you, you picked:
 # Option ProcessName    Id StartTime

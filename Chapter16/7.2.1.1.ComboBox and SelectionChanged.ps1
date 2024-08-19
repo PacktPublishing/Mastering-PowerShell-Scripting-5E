@@ -10,7 +10,7 @@
         </ComboBox>
         <Label Name="Label" />
     </StackPanel>
-</Window>’
+</Window>'
 $ui = Import-Xaml $xaml
 $ui.Controls['ComboBox'].add_SelectionChanged({
     param ( $sender, $eventArgs )

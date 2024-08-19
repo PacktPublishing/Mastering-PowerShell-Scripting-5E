@@ -1,3 +1,3 @@
 ﻿@{
-    Name = ‘Values’; Expression = { $_.Values -join "`n" }
+    Name = 'Values'; Expression = { $_.Values -join "`n" }
 }

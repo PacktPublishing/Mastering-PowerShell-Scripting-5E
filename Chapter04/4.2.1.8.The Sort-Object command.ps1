@@ -1,16 +1,16 @@
 $examResults | Sort-Object @(
-    { 
-        switch ($_.Result) { 
-            ‘Pass’ { 1 } 
-            ‘Fail’ { 2 } 
-            ‘N/A’  { 3 } 
-        } 
+    {
+        switch ($_.Result) {
+            'Pass' { 1 }
+            'Fail' { 2 }
+            'N/A'  { 3 }
+        }
     }
     @{ Expression = { $_.Mark }; Descending = $true }
 )
 
 # Expects output:
-# 
+#
 # Exam     Result    Mark
 # ----     ------    ----
 # Maths      Pass      92

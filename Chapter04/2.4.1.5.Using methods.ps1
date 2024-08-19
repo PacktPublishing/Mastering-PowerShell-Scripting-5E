@@ -1,1 +1,1 @@
-'My pet is a cat’ -replace 'cat', 'dog’
+'My pet is a cat' -replace 'cat', 'dog'
